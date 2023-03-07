@@ -26,7 +26,7 @@ res = 0
 for i in range(X):
     if colors0[i] == X:
         res = colors0[-i] + colors0[i] + colors0[+i]
-        
+res = colors0[-2] + colors0[-1] + colors0[0]
 print(res)
 
 
